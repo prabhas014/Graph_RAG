@@ -1,0 +1,2 @@
+Graph RAG systems combine knowledge graphs with vector databases to provide highly accurate contextual retrieval. This method ensures that the generative AI models hallucinate less and have structured relationship data.
+Neo4j is often used for the knowledge graph component, while ChromaDB is a popular choice for the vector database. When a user asks a question, the system queries both databases and combines the context before passing it to the LLM (like Google Gemini).
